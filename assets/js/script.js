@@ -5,7 +5,7 @@ $(function($){
 		event.preventDefault();
 
 		$.ajax({
-	    url: "https://formspree.io/contato@dicanarede.com.br", 
+	    url: "https://formspree.io/your@email.com", 
 	    method: "POST",
 	    data: {
 	    	name: $("#name").val(),
